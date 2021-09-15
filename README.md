@@ -22,8 +22,12 @@ Don't forget me this weekend!
 
 #### XML Syntax Rules
 
-XML Documents Must Have a Root Element
-XML documents must contain one root element that is the parent of all other elements:
+* The XML Prolog: <?xml version="1.0" encoding="UTF-8"?>
+* XML Documents Must Have a Root Element. XML documents must contain one root element that is the parent of all other elements
+* All XML Elements Must Have a Closing Tag
+* XML Elements Must be Properly Nested
+
+
 
 ```xml
 <root>
